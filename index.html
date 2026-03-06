@@ -67,15 +67,32 @@
             color: #2980b9;
             margin-bottom: 10px;
         }
+        /* 统一协议/政策列表样式 */
+        .policy-list {
+            margin-left: 20px;
+            margin-top: 10px;
+            line-height: 1.8;
+        }
+        .policy-list li {
+            margin-bottom: 8px;
+        }
         footer {
             text-align: center;
             padding: 30px 0;
             color: #7f8c8d;
             font-size: 0.9rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
         footer a {
             color: #3498db;
             text-decoration: none;
+        }
+        .footer-note {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
         }
     </style>
 </head>
@@ -115,32 +132,33 @@
         <section>
             <h2>用户协议</h2>
             <p>欢迎使用「白日留痕」应用。在使用本应用前，请您仔细阅读并同意以下协议：</p>
-            <ul style="margin-left: 20px; margin-top: 10px;">
+            <ul class="policy-list">
                 <li>本应用仅供个人合法使用，不得用于任何违法违规活动。</li>
                 <li>用户应对自己在应用内的所有内容和行为负责。</li>
-                <li>我们尊重并保护用户的个人隐私，具体条款详见《隐私政策》。</li>
+                <li>我们尊重并保护用户的个人隐私，具体条款详见下方《隐私政策》。</li>
                 <li>我们保留随时更新本协议的权利，更新后将在应用内通知。</li>
+            </ul>
+        </section>
+
+        <!-- 新增隐私政策模块 -->
+        <section>
+            <h2>隐私政策</h2>
+            <p>欢迎使用「白日留痕」应用。我们深知个人信息对您的重要性，将严格按照本政策保护您的信息安全：</p>
+            <ul class="policy-list">
+                <li>我们仅收集您在使用应用时主动提供的记录内容、设备基础信息等必要数据，用于提供和优化服务。</li>
+                <li>您的所有记录数据均存储在本地设备中，我们不会在未经您明确授权的情况下收集、上传或共享您的个人信息。</li>
+                <li>您可以随时查看、修改、删除自己的所有记录内容，拥有完全的数据控制权。</li>
+                <li>我们采用加密存储技术保障数据安全，防止非授权访问、泄露或丢失。</li>
+                <li>如本政策发生重大变更，我们将通过应用内通知方式告知您，您可选择继续使用或停止使用应用。</li>
             </ul>
         </section>
 
         <footer>
             <p>© 2025 白日留痕 版权所有</p>
-            <p>联系方式: <a href="mailto:contact@yourdomain.com">1793016005@qq.com</a></p>
+            <p>联系方式: <a href="mailto:1793016005@qq.com">1793016005@qq.com</a></p>
             <p>本页面为应用介绍页，暂不提供网络服务。</p>
+            <!-- 新增备案信息 -->
         </footer>
     </div>
-
-    <div class="section">
-  <h2>隐私政策</h2>
-  <p>欢迎使用「白日留痕」应用。我们深知个人信息对您的重要性，将严格按照本政策保护您的信息。</p>
-  <ul>
-    <li>我们仅收集您在使用应用时主动提供的记录内容、设备信息等必要数据，用于提供和优化服务。</li>
-    <li>您的所有数据均存储在本地设备中，我们不会在未经您明确授权的情况下，将您的个人信息共享给任何第三方。</li>
-    <li>您可以随时查看、修改或删除您在应用内的所有记录和个人信息。</li>
-    <li>我们会采取合理的技术和管理措施，保护您的信息安全，防止数据泄露、丢失或被非法访问。</li>
-    <li>如我们对本隐私政策进行重大变更，将通过应用内通知的方式告知您。</li>
-  </ul>
-</div>
 </body>
-
 </html>
